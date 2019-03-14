@@ -1,0 +1,14 @@
+---
+output: github_document
+---
+
+# pets
+
+Provides two example [tibbles](https://tibble.tidyverse.org), `pets` and
+`owners`.
+
+```{r}
+library(pets)
+pets
+owners
+```
