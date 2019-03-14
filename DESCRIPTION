@@ -1,12 +1,12 @@
 Package: pets
-Title: What the Package Does (One Line, Title Case)
+Title: Some Example Data About Pets and Their Owners
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "David",
            family = "Wilkins",
            role = c("aut", "cre"),
            email = "david@wilkox.org")
-Description: What the package does (one paragraph).
+Description: Provides some example data about pets and their owners.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
