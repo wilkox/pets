@@ -9,24 +9,20 @@ library(pets)
 pets
 ```
 
-    ## # A tibble: 5 x 2
-    ##   pet     species 
-    ##   <chr>   <chr>   
-    ## 1 Fifi    Dog     
-    ## 2 Goldi   Goldfish
-    ## 3 Mittens Cat     
-    ## 4 Rex     Dog     
-    ## 5 Snowy   Dog
+    ##      pet            breed
+    ## 1  Piper            Corgi
+    ## 2 Pancho        Greyhound
+    ## 3  Milly Golden retriever
+    ## 4    Max        Cockatiel
+    ## 5   Alex     African grey
 
 ``` r
 owners
 ```
 
-    ## # A tibble: 5 x 2
-    ##   owner pet    
-    ##   <chr> <chr>  
-    ## 1 Alice Snowy  
-    ## 2 Bob   Mittens
-    ## 3 Carol Mittens
-    ## 4 Dan   Goldi  
-    ## 5 Erin  Pancho
+    ##      owner    pet
+    ## 1 Margaret Pancho
+    ## 2      Roy Pancho
+    ## 3      Alf    Max
+    ## 4    Sarah  Piper
+    ## 5    James  Rolly
